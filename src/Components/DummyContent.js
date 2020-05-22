@@ -2,7 +2,7 @@ import React from 'react';
 import styled from 'styled-components';
 
 const Content = styled.div`
-  height: 400px;
+  height: 300px;
   border: 2px solid #aaa;
   border-radius: 4px;
   width: 60%;

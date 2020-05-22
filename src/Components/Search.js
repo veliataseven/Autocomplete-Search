@@ -1,5 +1,5 @@
 import React, { useState, useRef } from 'react';
-import styled from 'styled-components';
+import styled, { css } from 'styled-components';
 import data from '../MOCK_DATA.json';
 
 const Wrapper = styled.div`
@@ -42,7 +42,14 @@ const List = styled.div`
   overflow: hidden;
   overflow-y: scroll;
   display: ${(props) => props.displaySuggestion};
-  top: ${(props) => props.isListDirectionUp && '-305px'};
+  ${(props) =>
+    props.isListDirectionUp
+      ? css`
+          bottom: 51px;
+        `
+      : css`
+          top: 51px;
+        `};
 `;
 
 const ListItem = styled.div`
