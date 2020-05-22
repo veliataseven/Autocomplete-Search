@@ -1,3 +1,12 @@
+## User-Friendly Autocomplete-Search
+
+- Once the user mouses over the input We give visual feedback that the user can interact with it.
+- Once the user clicks on the input We move the placeholder label to the top to remind the user what this field is filling in.
+- Once the user starts typing the list in the dropdown will be filtered.
+- Once a selection is made it is shown in the dropdown.
+
+---
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
